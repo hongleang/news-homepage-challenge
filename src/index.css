@@ -1,0 +1,103 @@
+:root {
+  /* RGB value */
+  /* Primary */
+  --soft-orange: 233, 171, 83;
+  --soft-red: 241, 94, 80;
+  /* Neutral */
+  --off-white: 255, 253, 250;
+  --grayish-blue: 197, 198, 206;
+  --dark-grayish-blue: 93, 95, 121;
+  --very-dark-blue: 0, 0, 26;
+}
+
+body {
+  font-size: 15px;
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 500 !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Inter', sans-serif !important;
+  font-weight: 700 !important;
+}
+
+p {
+  font-size: 15px;
+}
+
+.text-soft-red {
+  color: rgb(var(--soft-red)) !important;
+}
+
+.text-soft-orange {
+  color: rgb(var(--soft-orange)) !important;
+}
+
+.text-grayish-blue {
+  color: rgb(var(--grayish-blue)) !important;
+}
+
+.text-dark-grayish-blue {
+  color: rgb(var(--dark-grayish-blue)) !important;
+}
+
+.text-very-dark-blue {
+  color: rgb(var(--very-dark-blue)) !important;
+}
+
+.bg-very-dark-blue {
+  background: rgb(var(--very-dark-blue)) !important;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  list-style-type: none !important;
+}
+
+a {
+  text-decoration: none !important;
+  margin-bottom: 0;
+}
+
+
+
+.headline-news-heading {
+  text-transform: capitalize;
+  font-weight: 800 !important;
+  font-size: 4em;
+  line-height: 1;
+}
+
+.btn-readmore {
+  --bs-btn-padding-y: 0.6rem !important;
+  --bs-btn-padding-x: 2rem !important;
+  --bs-btn-font-size: 1.15rem !important;
+  --bs-btn-font-weight: 400 !important;
+  --bs-btn-line-height: 1.5 !important;
+  --bs-btn-color: var(--bs-white) !important;
+  --bs-btn-bg: rgb(var(--very-dark-blue)) !important;
+  --bs-btn-border-width: 1px !important;
+  --bs-btn-border-radius: 0 !important;
+  --bs-btn-disabled-opacity: 0.65 !important;
+  --bs-btn-focus-box-shadow: 0 0 0 0.25rem rgba(var(--bs-btn-focus-shadow-rgb), .5) !important;
+  --bs-btn-hover-bg: rgba(var(--soft-red)) !important;
+  --bs-btn-hover-color: var(--bs-white) !important;
+  letter-spacing: 5px !important;
+}
+
+.feature-card {
+  cursor: pointer;
+}
+
+.feature-card:hover .feature-card-title {
+  color: rgb(var(--soft-red));
+}
