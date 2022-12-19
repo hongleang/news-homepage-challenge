@@ -19,20 +19,10 @@ Users should be able to:
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
 - Live Site URL: [Add live site URL here](https://your-live-site-url.com)
 
-## My process
-
-### Built with
-
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+### Open it in local machine
+```
+ npm run dev
+```
 
 ### What I learned
 
@@ -43,6 +33,7 @@ Here are recaps of what I've learned with this project:
     <li>React + typscript</li>
     <li>bootstrap + css variable</li>
     <li>Framer motion react</li>
+    <li>Vite</li>
 </ul>
 ```
 
