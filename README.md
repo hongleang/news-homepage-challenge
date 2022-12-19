@@ -10,8 +10,9 @@ Users should be able to:
 
 ### Screenshot
 
-![](./screenshot.jpg)(./screenshot-mobile.jpg)(./screenshot-mobile-2.jpg)
-
+![](./screenshot.jpg)
+![](./screenshot-mobile.jpg)
+![](./screenshot-mobile-2.jpg)
 
 ### Links
 
