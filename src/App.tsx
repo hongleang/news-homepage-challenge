@@ -1,4 +1,4 @@
-import { useState, Fragment } from 'react';
+import { useState, Fragment, useEffect } from 'react';
 
 import newsData, { Data } from './data/data';
 import Navbar from './components/navbar/Navbar';
@@ -10,9 +10,16 @@ function App() {
   const headlineNews: Data | undefined = newsData.find(data => data.type === 'main-focus');
 
   if (!headlineNews) {
-    console.log('Error: item with type "main-focus" not found for news headline! ');
     return (<>Error!! Please contact support.</>)
   }
+
+  const [theme, setTheme] = useState("dark");
+
+  useEffect(() => {
+    document.getElementById("root")!.className = theme;
+
+  }, [theme])
+
 
   return (
     <>
