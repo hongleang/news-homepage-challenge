@@ -22,17 +22,17 @@ export default function HeadlineNews({ healineNews }: { healineNews: Data }) {
     return (
         <section id="headline-news" className='container mt-4'>
             <div className="row pe-0" style={mobileSize ? headlineNewsStyle : headlineNewsStyleDesktop}>
-                <div id="headline-news" className='col-md-8 row'>
+                <div className='col-md-8 row'>
                     <div className="row pe-0" style={mobileSize ? headlineNewsStyle : headlineNewsStyleDesktop}>
-                        <div className="col-12 mb-4 px-0">
+                        <div role="headline-img" className="col-12 mb-4 px-0">
                             <img src={!mobileSize ? healineNews.img?.desktop || '' : healineNews.img?.mobile} alt="headline-news-img" className="img-fluid" />
                         </div>
-                        <div className="col-lg-6 px-0">
+                        <div role="headline-title" className="col-lg-6 px-0">
                             <h1 className="headline-news-heading text-very-dark-blue">
                                 {healineNews.title}
                             </h1>
                         </div>
-                        <div className="col-lg-6 px-0">
+                        <div role="headline-content" className="col-lg-6 px-0">
                             <p className='text-dark-grayish-blue' style={{ lineHeight: 1.6, marginBottom: 56 }}>
                                 {healineNews.contents}
                             </p>
