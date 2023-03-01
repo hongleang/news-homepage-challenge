@@ -11,7 +11,7 @@ export default function Features() {
     if (featuringNews.length === 0) return <>Errors!! No Feature news</>
 
     return (
-        <section role="featuring" id="featuring-news" className='container' style={{ marginTop: 70 }}>
+        <section role="banner" id="featuring-news" className='container' style={{ marginTop: 70 }}>
             <div className="row row-cols-1 row-cols-md-3 justify-content-center justify-content-md-between" style={
                 mobileSize ? {
                     paddingLeft: 20
