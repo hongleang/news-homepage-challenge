@@ -69,8 +69,6 @@ a {
   margin-bottom: 0;
 }
 
-
-
 .headline-news-heading {
   text-transform: capitalize;
   font-weight: 800 !important;
@@ -101,14 +99,4 @@ a {
 
 .feature-card:hover .feature-card-title {
   color: rgb(var(--soft-red));
-}
-
-#root.dark {
-  background: rgb(9, 9, 10);
-  color: var(--bs-white);
-  --dark-grayish-blue: var(--bs-white);
-}
-
-#root.dark>h1 {
-  color: var(--bs-white);
 }
