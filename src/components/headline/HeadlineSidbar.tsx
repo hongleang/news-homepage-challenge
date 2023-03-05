@@ -11,7 +11,7 @@ export default function HeadlineSidbar({ highlightedNews = [], sidebarstyles }: 
         </Fragment>))) : (<>No Hightlighted news was found!</>)
 
     return (
-        <div role="banner" id="news-brief-sidebar" className='col-md-4 mt-4 mt-md-0 bg-very-dark-blue p-4'>
+        <div id="news-brief-sidebar" className='col-md-4 mt-4 mt-md-0 bg-very-dark-blue p-4'>
             <h2 className='fs-1 text-soft-orange mb-3'>New</h2>
             {renderNewsComponent}
         </div>

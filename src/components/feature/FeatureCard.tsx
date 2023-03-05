@@ -15,7 +15,7 @@ export default function FeatureCard({ featuringNews = [] }: { featuringNews: Dat
                     <div className="col-8 col-md-7">
                         <h2 className='text-grayish-blue mb-4'>{featureRank ? '0' + featureRank : 'Hot'}</h2>
                         <h5 className='feature-card-title fw-bold mb-3'>{title}</h5>
-                        <p role="article" className='text-dark-grayish-blue'>{contents}</p>
+                        <p className='text-dark-grayish-blue'>{contents}</p>
                     </div>
                 </div>
             ))}
