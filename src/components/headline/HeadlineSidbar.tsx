@@ -5,7 +5,7 @@ import { Data } from '../../data/data';
 export default function HeadlineSidbar({ highlightedNews = [], sidebarstyles }: { highlightedNews: Data[], sidebarstyles?: {} }) {
     const renderNewsComponent = highlightedNews.length > 0 ?
         (highlightedNews.map(({ title, contents }) => (<Fragment key={title}>
-            <h4 className='text-white mb-3'>{title}</h4>
+            <div className='h4 text-white mb-3'>{title}</div>
             <p className='text-grayish-blue'>{contents}</p>
             <hr style={{ borderColor: 'white', marginTop: 25, borderTop: '1px solid}', opacity: .6 }} />
         </Fragment>))) : (<>No Hightlighted news was found!</>)
